@@ -1,0 +1,36 @@
+{
+  "name": "nextjs_tester",
+  "version": "1.0.0",
+  "description": "experiments with nextjs and bulma css",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "now-build": "next build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/melvinalmonte/nextjs_tester.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/melvinalmonte/nextjs_tester/issues"
+  },
+  "homepage": "https://github.com/melvinalmonte/nextjs_tester#readme",
+  "dependencies": {
+    "@zeit/next-sass": "^1.0.1",
+    "bulma": "^0.8.0",
+    "next": "^9.1.7",
+    "node-sass": "^4.13.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "styled-components": "^4.4.1"
+  },
+  "devDependencies": {
+    "axios": "^0.19.2",
+    "react-cookie": "^4.0.3"
+  }
+}
