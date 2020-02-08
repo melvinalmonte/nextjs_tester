@@ -1,3 +1,3 @@
-import {Submit} from "./submit";
+import { Submit } from './submit';
 
-export default Submit
+export default Submit;

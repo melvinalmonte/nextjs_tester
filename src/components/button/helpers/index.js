@@ -1,3 +1,3 @@
-import {useSubmit} from "./useSubmit"
+import { useSubmit } from './useSubmit';
 
 export default useSubmit;

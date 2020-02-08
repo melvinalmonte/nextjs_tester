@@ -7,7 +7,8 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "now-build": "next build"
+    "now-build": "next build",
+    "lint": "eslint ./src/ --fix && eslint ./src/"
   },
   "repository": {
     "type": "git",
@@ -22,15 +23,22 @@
   "homepage": "https://github.com/melvinalmonte/nextjs_tester#readme",
   "dependencies": {
     "@zeit/next-sass": "^1.0.1",
+    "axios": "^0.19.2",
     "bulma": "^0.8.0",
     "next": "^9.1.7",
-    "node-sass": "^4.13.0",
+    "node-sass": "^4.13.1",
     "react": "^16.12.0",
+    "react-cookie": "^4.0.3",
     "react-dom": "^16.12.0",
     "styled-components": "^4.4.1"
   },
   "devDependencies": {
-    "axios": "^0.19.2",
-    "react-cookie": "^4.0.3"
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.18.3",
+    "eslint-plugin-react-hooks": "^1.7.0"
   }
 }
